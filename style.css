@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;            
+}
+body{
+    position: relative;
+}
+.containers{
+    display: flex;
+    max-width: 990px;           
+    margin: auto; 
+    width: 100%;        
+}
+.imagens-pagina{
+    width: 100%;            
+}
+/* ESTILOS NO CABEÇALHO */
+
+#cabecalho{
+    background-color: #122a57;    
+    height: 100px;     
+    display: flex; 
+    align-items: center;  
+}
+.menu-cabecalho{
+    justify-content: space-between;
+}
+#titulo-cabecalho{
+    font-family: sans-serif;   
+    color: #ffffff;         
+}
+.lista-cabecalho{
+    list-style: none;
+    display: flex;
+    max-width: 260px;
+    width: 100%;
+    justify-content: space-between; 
+    align-items: center;       
+}
+.itens-lista-cabecalho{
+    text-decoration: none;    
+    color: #ffffff; 
+    font-family: sans-serif;       
+}
+
+/* ESTILOS NO CONTEÚDO PRINCIPAL */
+
+.conteudo{
+    height: 100vh;
+    align-items: center;
+    justify-content: space-between;            
+}
+
+.texto-conteudo{
+    font-family: sans-serif;           
+    min-height: 200px;          
+}
+.titulo-texto-conteudo{
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #122a57;            
+}
+.ancora-saibamais{
+    display: block;            
+    margin-top: 10px; 
+    text-decoration: none;           
+    background-color: #122a57;  
+    color: #ffffff;
+    border-radius: 30px;    
+    padding: 10px 70px 10px 70px;        
+}
+
+#quemsomos{
+    flex-direction: row-reverse; 
+    align-items: center;
+    justify-content: space-between;           
+}
+
+#titulo-quemsomos{
+                font-family: sans-serif;
+                font-size: 32px;
+                color: #122a57;
+                margin-bottom: 20px;
+}
+
+#titulo-quemsomos::before{
+                height: 50px;
+                width: 5px;
+                margin-right: 5px;
+                background-color: #122a57;
+                position:relative;
+}
+.paragrafo-quemsomos{
+                font-family: sans-serif;
+                margin-bottom: 10px;
+                width: 90%;
+}
+
+#quemsomos img{
+                min-width: 450px;
+}
+
+#container-externo-servicos{
+                background-color: #122a57;
+}
+
+#servicos{
+           flex-direction: column;  
+           padding-top:50px;
+           padding-bottom: 100px;   
+
+}
+#titulo-servicos{
+                font-family: sans-serif;
+                color: #ffffff;
+                font-size: 32px;
+                margin-top: -10px;
+                margin-bottom: 30px;
+}
+#lista-servicos{
+           display: flex;   
+           flex-direction: row;
+           justify-content: space-between;  
+}
+.item-servicos{
+           display:flex;
+           flex-direction: column;  
+           align-items: center;   
+}
+
+.servicos-compraragora{
+                text-decoration: none;
+                font-family: sans-serif;
+                font-size: 14px;
+                font-weight: 700;
+                width: 220px;
+                margin-top: 20px;
+                padding: 5px 10px;
+                background-color: #ffffff;
+                border-radius: 30px;
+                text-align: center;
+                color: #122a57;
+}
+.item-titulos{
+            margin-top: 10px;    
+            font-family: sans-serif;  
+            color: #ffffff;  
+            font-weight: 700; 
+            font-size: 20px;   
+}
+
+#planos{
+           flex-direction: column;   
+           height: 100vh;  
+}
+#titulo-planos{
+    font-family: sans-serif;
+    font-size: 32px;
+    color: #122a57;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#lista-planos{
+        display: flex;
+        flex-direction: row;
+        align-items: flex-end;        
+}
+.titulos-planos{
+        width: 220px;
+        margin: auto;
+        text-align: center;
+        font-family: sans-serif;
+        margin-top: 20px;
+        padding-bottom: 15px;
+        border-bottom: 3px solid #122a57;
+}
+.listas-planos{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+}
+.listas-planos li{
+    list-style-type: square;
+    margin-left: 30px;
+    font-family: sans-serif;
+    color: #122a57;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.item-planos{
+        flex: 1; 
+        border: 5px solid #122a57;    
+        margin-right: 20px;
+}
+
+.btn{
+    width: 200px;
+    margin: auto;
+    background-color: #122a57;
+    font-family: sans-serif;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 30px;
+    display: block;
+    text-decoration: none;
+    padding: 7px 30px 7px 30px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+#rodape{
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #122a57;
+    color: #ffffff;
+    font-family: sans-serif;
+    height: 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
