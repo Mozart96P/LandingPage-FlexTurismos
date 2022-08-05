@@ -12,8 +12,7 @@ body{
     width: 100%;        
 }
 .imagens-pagina{
-     width: 100%;
-     min-width: 300px;
+     width:100%;
 }
 /* ESTILOS NO CABEÇALHO */
 
@@ -96,11 +95,6 @@ body{
                 margin-bottom: 10px;
                 width: 90%;
 }
-
-#quemsomos img{
-                min-width: 450px;
-}
-
 #container-externo-servicos{
                 background-color: #122a57;
 }
@@ -109,7 +103,6 @@ body{
            flex-direction: column;  
            padding-top:50px;
            padding-bottom: 100px;   
-
 }
 #titulo-servicos{
                 font-family: sans-serif;
@@ -224,14 +217,12 @@ body{
     color: #ffffff;
     font-family: sans-serif;
     height: 100px;
-    
 }
-
 @media (max-width: 650px){
         .menu-cabecalho{
             flex-direction: column;
             align-items: center;
-    }
+        }
         .conteudo{
             flex-direction: column-reverse;
             justify-content: center;
@@ -289,19 +280,18 @@ body{
         }
         #planos{
             flex-direction: column;   
- }
- #rodape{
-    width: 100%;
-    position: relative;
-    left: 0px;
-    bottom: 0px;
-    display: flex;
-    flex-direction: column-reverse;
-    align-items: center;
-    background-color: #122a57;
-    color: #ffffff;
-    font-family: sans-serif;
-    height: 90px;
-    
-}
-}
+        }
+        #rodape{
+            width: 100%;
+            position: relative;
+            left: 0px;
+            bottom: 0px;
+            display: flex;
+            flex-direction: column-reverse;
+            align-items: center;
+            background-color: #122a57;
+            color: #ffffff;
+            font-family: sans-serif;
+            height: 90px;
+        }
+    }
